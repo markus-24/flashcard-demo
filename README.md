@@ -1,12 +1,57 @@
-# React + Vite
+# 🌺 Aloha Flashcards
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Aloha Flashcards** is a vibrant, interactive web app designed to make learning fun for keiki (kids) in Hawaii. Featuring a colorful "Ocean & Sunset" theme, the app helps students master everything from local trivia to math problems using digital flip cards.
 
-Currently, two official plugins are available:
+**[View Demo Website](https://flashcard-demo.maevange183579.workers.dev)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Key Features
 
-## Expanding the ESLint configuration
+* **👩‍🏫 Teacher Dashboard:** A password-free admin area to add, edit, or delete custom questions.
+* **🎮 Interactive Play Mode:** Tap to flip cards with smooth 3D animations and "Ocean/Sunset" gradients.
+* **🔀 Shuffle Mode:** Randomize the card order to keep the game challenging.
+* **💾 Auto-Save:** Uses local storage so questions are saved automatically on your device.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* **Framework:** React + Vite
+* **Language:** JavaScript
+* **Styling:** CSS3
+* **Data:** Browser LocalStorage (No backend required)
+
+## 🚀 How to Run Locally
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/markus-24/flashcard-demo.git
+    cd flashcard-demo
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open your browser:**
+    Navigate to `http://localhost:5173` to see the app.
+
+## 📖 How to Use
+
+1.  **Student Mode (Default):**
+    * Read the question on the front (Blue/Ocean).
+    * Tap the card to flip and see the answer (Red/Sunset).
+    * Click **Next Card ➡️** to move on.
+
+2.  **Teacher Mode:**
+    * Click the **⚙️ Teacher** button in the top right.
+    * Use the form to add new Questions and Answers.
+    * Click the Trash Can 🗑️ icon to delete old cards.
+    * Click **Play Mode ▶️** to return to the game.
+
+---
+
+*Made with ❤️ and 🌺 in Hawaii.*
