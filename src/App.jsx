@@ -60,6 +60,13 @@ function App() {
     }, 200); // small delay for animation
   };
 
+  const handleShuffle = () => {
+    const shuffled = [...cards].sort(() => Math.random() - 0.5);
+    setCards(shuffled);
+    setCurrentIndex(0); // Reset to start
+    setIsFlipped(false);
+  };
+
   // --- TEACHER VIEW ---
   if (view === 'teacher') {
     return (
@@ -96,7 +103,10 @@ function App() {
     <div className="container student-theme">
       <header>
         <h1>⚡ Fun Flashcards ⚡</h1>
-        <button className="small-btn" onClick={() => setView('teacher')}>⚙️ Teacher</button>
+        <div>
+          <button className="small-btn" onClick={handleShuffle} style={{marginRight:'10px'}}>🔀 Shuffle</button>
+          <button className="small-btn" onClick={() => setView('teacher')}>⚙️ Teacher</button>
+        </div>
       </header>
 
       <div className="game-area">
