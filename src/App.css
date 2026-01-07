@@ -25,8 +25,8 @@ body {
 
 /* --- HEADER TEXT FIXES --- */
 h1 {
-  color: #ff6b6b; /* Salmon/Red color for title */
-  text-shadow: 2px 2px 0px #fff; /* White outline to make it pop */
+  color: #ff8a65; /* Tropical Coral color */
+  text-shadow: 2px 2px 0px #fff;
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
@@ -75,8 +75,9 @@ h3 {
 }
 
 .front {
-  background: linear-gradient(135deg, #fff1eb 0%, #ace0f9 100%);
-  color: #333; /* Dark text on front */
+  /* Light blue to turquoise gradient (Ocean vibes) */
+  background: linear-gradient(135deg, #e0f7fa 0%, #80deea 100%);
+  color: #006064; /* Dark Teal text for contrast */
   border: 4px solid #fff;
 }
 
@@ -87,11 +88,11 @@ h3 {
 }
 
 .back {
-  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
-  color: white; /* Keep white text on the dark/colorful back */
+  /* Orange to Pink gradient (Sunset vibes) */
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  color: #b71c1c; /* Dark red text */
   transform: rotateY(180deg);
   border: 4px solid #fff;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
 /* --- BUTTONS --- */
