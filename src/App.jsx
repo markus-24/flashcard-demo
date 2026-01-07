@@ -102,7 +102,7 @@ function App() {
   return (
     <div className="container student-theme">
       <header>
-        <h1>⚡ Fun Flashcards ⚡</h1>
+        <h1>🌺 Aloha Flashcards 🌺</h1>
         <div>
           <button className="small-btn" onClick={handleShuffle} style={{marginRight:'10px'}}>🔀 Shuffle</button>
           <button className="small-btn" onClick={() => setView('teacher')}>⚙️ Teacher</button>
